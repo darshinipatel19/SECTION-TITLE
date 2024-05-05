@@ -1,0 +1,95 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.head
+{
+    height: 80px;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+.logo
+{
+    height: 100px;
+    width: 20%;
+
+}
+.logo img
+{
+    height: 100px;
+    width: 250px;
+}
+.div
+{
+    height: 50px;
+    width: 40%;
+    position: relative;
+    left: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div a
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.div:hover a
+{
+    color:rgb(53, 29, 174);
+}
+.container
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Image/mountain.avif");
+    height: 527px;
+    width: 100%; 
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line
+{
+    height: 100px;
+    width: 50%;
+
+        
+}
+.line h2
+{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.box
+{
+    height: 50px;
+    width:20%;
+    background-color: rgb(7, 11, 70);
+    border-radius: 40px;
+    position: relative;
+    left: 37%;
+    margin-top: 2%;      
+}
+.box:hover h3
+{
+    color: red;
+}
+.box h3 
+{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 50px;
+}
